@@ -187,9 +187,13 @@ def appearance():
             print("Correct")
 
         elif str(letter) not in str(word):
-            print("\nWrong")
-            count += 1
-            print(count)
+            if letter in used_letters:
+                print("\nWrong")
+                print(count)
+            else:
+                print("\nWrong")
+                count += 1
+                print(count)
             if letter not in used_letters:
                 scaffold_interface(count)
         if letter not in used_letters:
