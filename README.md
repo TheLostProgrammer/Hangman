@@ -1,8 +1,6 @@
 # Hangman
 This is a basic hangman game created 100% with python using tkinter.
 
-To Report any bugs or ask any questions send an email to mrtechguycaleb@gmail.com. For any problems or suggestions relating to the readme or installation send an email to arkaitz.hedger@gmail.com.
-
 #########Installation#########
 
 To use this code you will need to have python 3 installed as well as tkinter and pillow.
